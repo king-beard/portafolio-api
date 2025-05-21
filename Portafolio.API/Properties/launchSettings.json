@@ -7,7 +7,8 @@
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5036",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "connection_string" : "Data Source=KINGBEARD\\SQLEXPRESS;Database=portafolio;User Id=king_beard;Password=C0nnect+1;TrustServerCertificate=True"
       }
     },
     "https": {
@@ -16,7 +17,8 @@
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7166;http://localhost:5036",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "connection_string" : "Data Source=KINGBEARD\\SQLEXPRESS;Database=portafolio;User Id=king_beard;Password=C0nnect+1;TrustServerCertificate=True"
       }
     }
   }
